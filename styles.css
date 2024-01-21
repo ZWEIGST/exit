@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: 'Alkalami', serif;
+  background-color: yellowgreen;
+}
+
+button {
+  border: none;
+  background-color: #2E8B57;
+  text-decoration: none;
+  color: yellowgreen;
+}
+
+input {
+  border: none;
+  background-color: lemonchiffon;
+  outline: none;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.heading {
+  margin-left: 5rem;
+  color: #103a10;
+}
+
+.buttonBack {
+  font-size: 2rem;
+  height: 4rem;
+  width: 6rem;
+}
+
+.forward {
+  background-color: #2E8B57;
+  text-decoration: none;
+  font-size: 2rem;
+  height: 4rem;
+  width: 8rem;
+}
+
+.buttonLink {
+  color: yellowgreen;
+  text-decoration: none;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,58 @@
+@import "var";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+font-family: 'Alkalami', serif;
+background-color: yellowgreen;
+
+}
+
+button {
+    border: none;
+    background-color: $button-background;
+    text-decoration: none;
+    color: $text-color;
+}
+
+input {
+    border: none;
+    background-color: lemonchiffon;
+    outline: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.heading {
+    margin-left: 5rem;
+    color: rgb(16, 58, 16);
+}
+.buttonBack {
+    font-size: 2rem;
+    height: 4rem;
+    width: 6rem;
+ }
+
+.forward {
+    background-color: $button-background;
+    text-decoration: none;
+    font-size: 2rem;
+    height: 4rem;
+    width: 8rem;
+}
+
+.buttonLink {
+    color: $text-color;
+    text-decoration: none;
+}
